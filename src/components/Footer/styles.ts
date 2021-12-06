@@ -2,12 +2,20 @@ import styled from 'styled-components';
 
 export const FooterContent = styled.footer`
     margin:0;
-    padding: 20px 0;
-    background-color:white;
+    background-color: #222141;
+    height: 30vh;
+    padding:10vh;
+    text-align: center;
+   
 
-    > p {
-        color: black;
+    > h2 {
+        
         font-family: 'Amatic SC', cursive;
+        color: #78D33E;
+        font-size: 38px;
         text-align: center;
+        font-variant: small-caps; 
+        padding: 15vh auto;
+        text-shadow: 2px 0 #494C2F, 0 2px #494C2F, 2px 0 #494C2F, 0 -2px #494C2F;
     }
 `;

@@ -7,25 +7,27 @@ align-items:center;
 flex-direction:column;
 
 > input {
-    margin: 40px 0;
-    width: 50vh;
+    margin: 60px 0;
+    width: 50vw;
     height: 50px;
-    font-size: 20px;
+    font-size: 24px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
     padding-left: 10px;
-    border: 1px solid black;
+    border: 2px solid #222141;
     border-radius: 5px;
-
+    background-color:#F4FFB5;
     transition: filter 0.2s;
 
     transition: ease-in;
 
     &:hover {
-        filter: brightness(0.9);
-        border: 2px solid yellow;
+        filter: brightness(0.95);
+        border: 2px solid #78D33E;
     }
 
     &:focus {
-        border:3px solid orange;
+        border:3px solid #78D33E;
     }
 }
 > p {

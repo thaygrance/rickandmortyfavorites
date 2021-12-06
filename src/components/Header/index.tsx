@@ -1,7 +1,8 @@
 import { ButtonHTMLAttributes } from "react";
 import { Link } from 'react-router-dom';
 
-import { HeaderTag, HeaderContainer } from "./styles";
+import { HeaderTag } from "./styles";
+//import headerImg from "../../assets/images/headerImg.png"
 
 type HeaderProps = ButtonHTMLAttributes<HTMLButtonElement> & {
     imgButton: string;
@@ -12,15 +13,14 @@ type HeaderProps = ButtonHTMLAttributes<HTMLButtonElement> & {
 export function Header({ toLink, imgButton, children }: HeaderProps): JSX.Element {
     return(
         <HeaderTag>
-            <HeaderContainer>
-                <h1> RICK &amp; MORTY </h1>
-                <Link to={toLink}>
-                    <button>
-                        <img src={imgButton} alt="Ícone do botão" />
+            <Link to={toLink}>
+                <button>
+                   <img src={imgButton} alt="Ícone do botão" />
                     {children}
-                    </button>
-                </Link>
-            </HeaderContainer>
+                </button>
+            </Link>
+
+
         </HeaderTag>
     )
 }

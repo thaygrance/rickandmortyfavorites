@@ -1,9 +1,16 @@
 import styled from 'styled-components';
+import backgroundImg from "../../assets/images/backgroundImg.jpg"
 
 export const HomeContainer = styled.main`
-    max-width: 1120px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 60px 20px;
+    padding: 0px 20px;
+    background-image: url(${backgroundImg});
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-bottom:60px;
+  
 `;
 
 export const NotFoundDiv = styled.div`
@@ -29,4 +36,4 @@ export const LoadingDiv = styled.div`
         color:black;
         margin:0;
     }
-`;
+`; 

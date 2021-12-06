@@ -11,14 +11,16 @@ export const CardContainer = styled.div`
     width: 300px;
     overflow: hidden;
     border-radius:8px;
-    color: #ffffff;
+    color: #222141;
     box-shadow: 0px 0px 15px --5px;
     transition: 0.3s;
     animation: ease-in;
+    border: 3px solid #222141;
+    background-color: #6EB568;
 
     &:hover {
-        transform: scale (1.1);
-        box-shadow: 0px 0px 15px 0px;
+       box-shadow: 0px 0px 20px 0px;
+       transform: scale(1.05);
     } 
 `;
 
@@ -46,9 +48,17 @@ export const CardContent = styled.div`
         padding: 0;
     }
     >div h3 {
-        color: black;
+        color:#222141;
         font-size: 28px;
         margin-bottom: 0.5rem;
     }
+
+    >div p {
+        font-size: 30px;
+        font-weight: 700;
+        color:#494C2F;
+    }
+
+
 
 `;

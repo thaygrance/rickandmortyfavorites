@@ -7,7 +7,8 @@ import { Footer } from "../../components/Footer";
 import { FavoritesContainer, LoadingDiv, NotFavoritesDiv } from "./styles";
 
 import { useFavorites } from "../../hooks/useFavorites";
-import homeImg from "../../assets/imagens/home.svg"
+import homeImg from "../../assets/images/home.svg"
+
 export function Favorites():JSX.Element {
     const [loading, setLoading] = useState(true);
     const [notFavorite, setNotFavorite] = useState(false);
@@ -34,7 +35,7 @@ export function Favorites():JSX.Element {
              
             </Header>
             <FavoritesContainer>
-                <h1>sua lista de favoritos</h1>
+                <h1>Personagens Favoritos</h1>
                 {
                     loading ? (
                         <LoadingDiv>

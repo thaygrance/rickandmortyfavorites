@@ -6,7 +6,7 @@ import { Search } from "../../components/Search";
 import { Card } from "../../components/Card";
 import { Footer } from "../../components/Footer";
 import { HomeContainer, LoadingDiv, NotFoundDiv } from "./styles";
-import heartImg from "../../assets/imagens/heart.svg"
+import heartImg from "../../assets/images/heart.svg"
 
 export function Home(): JSX.Element {
     const [loading, setLoading] = useState(true);
@@ -51,7 +51,7 @@ export function Home(): JSX.Element {
     return(
         <div>
             <Header imgButton={heartImg}toLink={"/favorites"}>
-            Favoritos
+            SEUS PERSONAGENS FAVORITOS 
             </Header>
             <HomeContainer>
                 <Search searchText={searchText} setSearchText={setSearchText} />
@@ -68,7 +68,7 @@ export function Home(): JSX.Element {
                             </p>
                         </NotFoundDiv>
                     ) : (
-                        <Card characters={characters} />
+                        <Card characters={characters} /> 
                     ))
                 }
             </HomeContainer>

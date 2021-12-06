@@ -1,14 +1,25 @@
 import styled from "styled-components";
+import backgroundImg from "../../assets/images/backgroundImg.jpg"
 
 export const FavoritesContainer = styled.main`
-    max-width:1120px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 60px 20px;
+    background-image: url(${backgroundImg});
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-bottom:60px;
 
     > h1 {
-        margin: 35px auto;
+        color: #222141;
+        font-variant: small-caps; 
+        padding: 35px auto;
         font-size: 48px;
         text-align: center;
+        margin-bottom: 50px;
+        text-shadow: 2px 0 #78D33E, 0 2px #78D33E,
+      2px 0 #78D33E, 0 -2px #78D33E;
     }
 `;
 

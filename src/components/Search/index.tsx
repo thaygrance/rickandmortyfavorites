@@ -17,7 +17,7 @@ export function Search ({ searchText, setSearchText }: SearchProps): JSX.Element
         <SearchContainer>
             <input
                 type="text"
-                placeholder="Pesquise o personagem"
+                placeholder="Pesquise um personagem"
                 value={searchText}
                 onChange={handleChange}
             />
