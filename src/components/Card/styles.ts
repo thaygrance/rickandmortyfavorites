@@ -15,7 +15,7 @@ export const CardContainer = styled.div`
     box-shadow: 0px 0px 15px --5px;
     transition: 0.3s;
     animation: ease-in;
-    border: 3px solid #222141;
+    border: 3px solid #494C2F;
     background-color: #6EB568;
 
     &:hover {

@@ -14,7 +14,7 @@ flex-direction:column;
     font-family: 'Amatic SC', cursive;
     font-weight: 700;
     padding-left: 10px;
-    border: 2px solid #222141;
+    border: 3px solid #494C2F;
     border-radius: 5px;
     background-color:#F4FFB5;
     transition: filter 0.2s;
