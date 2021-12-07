@@ -55,5 +55,10 @@ export const NotFavoritesDiv = styled.div`
         height:400px;
         margin-bottom: 50px;;
     }
-    
+    @media screen and (max-width: 700px){
+        >h3{
+            font-size:20px;
+        }
+
+    } 
 `;

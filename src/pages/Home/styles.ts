@@ -31,6 +31,15 @@ export const NotFoundDiv = styled.div`
         2px 0 #78D33E, 0 -2px #78D33E;
         margin:0;
     }
+
+
+    @media screen and (max-width: 700px){
+
+    >h3 {
+    font-size: 20px;
+    }
+
+}
 `;
 
 export const LoadingDiv = styled.div`
@@ -44,4 +53,5 @@ export const LoadingDiv = styled.div`
         color:black;
         margin:0;
     }
+
 `; 
