@@ -6,6 +6,7 @@ justify-content:center;
 align-items:center;
 flex-direction:column;
 
+
 > input {
     margin: 60px 0;
     width: 50vw;
@@ -33,5 +34,14 @@ flex-direction:column;
 > p {
     margin:10px;
     font-size:18px;
+}
+
+@media screen and (max-width: 700px){
+
+    margin-top:25vh;
+    > input {
+        font-size: 18px; 
+    }
+
 }
 `;

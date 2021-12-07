@@ -56,7 +56,7 @@ export function Home(): JSX.Element {
     return(
         <div>
             <Header imgButton={heartImg}toLink={"/favorites"}>
-            SEUS PERSONAGENS FAVORITOS 
+            FAVORITOS 
             </Header>
             <HomeContainer>
                 <Search searchText={searchText} setSearchText={setSearchText} />

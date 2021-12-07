@@ -18,4 +18,11 @@ export const FooterContent = styled.footer`
         padding: 15vh auto;
         text-shadow: 2px 0 #494C2F, 0 2px #494C2F, 2px 0 #494C2F, 0 -2px #494C2F;
     }
+  
+    @media screen and (max-width: 700px){
+        height: 15vh;
+        padding:3vh;
+
+    }
+
 `;
