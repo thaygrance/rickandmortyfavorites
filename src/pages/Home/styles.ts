@@ -18,9 +18,17 @@ export const NotFoundDiv = styled.div`
     flex-direction: column;
     align-items: center;
 
+    >img{
+        width: 400px;
+        height:400px;
+        margin-bottom: 50px;;
+    }
+
     >h3 {
-        font-size: 24px;
-        color: black;
+        font-size: 32px;
+        color: #494C2F;
+        text-shadow: 2px 0 #78D33E, 0 2px #78D33E,
+        2px 0 #78D33E, 0 -2px #78D33E;
         margin:0;
     }
 `;

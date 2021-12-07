@@ -42,11 +42,18 @@ export const NotFavoritesDiv = styled.div`
 
     >h3 {
         margin-top:45px;
-        font-size:20px;
+        font-size: 32px;
+        color: #494C2F;
+        text-shadow: 2px 0 #78D33E, 0 2px #78D33E,
+        2px 0 #78D33E, 0 -2px #78D33E;
         margin:0;
     }
 
-    >img {
-        margin-top:45px;
+        
+    >img{
+        width: 400px;
+        height:400px;
+        margin-bottom: 50px;;
     }
+    
 `;

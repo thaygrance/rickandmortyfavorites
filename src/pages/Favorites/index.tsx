@@ -8,6 +8,7 @@ import { FavoritesContainer, LoadingDiv, NotFavoritesDiv } from "./styles";
 
 import { useFavorites } from "../../hooks/useFavorites";
 import homeImg from "../../assets/images/home.svg"
+import notFavoritesImg from "../../assets/images/notFavoritesImg.png"
 
 export function Favorites():JSX.Element {
     const [loading, setLoading] = useState(true);
@@ -44,7 +45,9 @@ export function Favorites():JSX.Element {
                     ) : (
                     notFavorite ? (
                         <NotFavoritesDiv>
-                            <h3> Você não tem personagens favoritos</h3>
+                            <img src={notFavoritesImg} alt=""/>
+                            <h3> Você não tem personagens favoritos </h3>
+                            
                         </NotFavoritesDiv>
                     ) : ( 
                         <Card characters={favorites} />

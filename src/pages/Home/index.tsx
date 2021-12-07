@@ -1,18 +1,23 @@
 import { useEffect, useState } from "react";
 import api from "../../services/api";
 
+
 import { Header } from "../../components/Header";
 import { Search } from "../../components/Search";
 import { Card } from "../../components/Card";
 import { Footer } from "../../components/Footer";
 import { HomeContainer, LoadingDiv, NotFoundDiv } from "./styles";
 import heartImg from "../../assets/images/heart.svg"
+import notFoundImg from "../../assets/images/notFoundImg.png"
+
+
 
 export function Home(): JSX.Element {
     const [loading, setLoading] = useState(true);
     const [notFound, setNotFound] = useState(false);
     const [characters, setCharacters] = useState([]);
     const [ searchText, setSearchText] = useState('');
+
 
     useEffect(() => {
         async function loadCharacters() {
@@ -63,9 +68,11 @@ export function Home(): JSX.Element {
                     ) : (
                     notFound ? (
                         <NotFoundDiv>
-                            <p>
-                            Personagem não encontrado
-                            </p>
+                            <img src={notFoundImg} alt=""/>
+                            <h3>
+                            Não encontramos esse sujeito!
+                            </h3>
+                            
                         </NotFoundDiv>
                     ) : (
                         <Card characters={characters} /> 
