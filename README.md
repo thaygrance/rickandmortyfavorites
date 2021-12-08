@@ -9,26 +9,26 @@ HISTÓRIAS DE USUÁRIO
 4. Ao pesquisar um um personagem que não existe, gostaria de ser avisado que ele não existe.
 
 
-API
+# API
 https://rickandmortyapi.com/
 
 
-TECNOLOGIAS UTILIZADAS
+# TECNOLOGIAS UTILIZADAS
 - React
 - TypeScript
 - Axios
 - Styled Components
 
 
-MINHA EXPERIÊNCIA
+# MINHA EXPERIÊNCIA
 O mais satisfatório foi colocar em prática conhecimentos mais complexos de React JS e, junto com isso, usar a criatividade livremente com o CSS.
 
 
-Página disponível em:
+# Página disponível em:
 https://rickandmortyfavorites.netlify.app/
 
 
-COMO EXECUTAR O PROJETO
+# COMO EXECUTAR O PROJETO
 
 # Clone este repositório
 $ git clone https://github.com/thaygrance/rickandmortyfavorites.git
