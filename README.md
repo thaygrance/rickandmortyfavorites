@@ -1,8 +1,8 @@
-O PROJETO
+# O PROJETO
 Pequena consulta, visualização e cadastro de personagens favoritos do seriado Ricky & Morty.
 
 
-HISTÓRIAS DE USUÁRIO
+# HISTÓRIAS DE USUÁRIO
 1. Buscar personagem
 2. Ao pesquisar um personagem, gostaria de ver nome, genero e sua foto(se existir) antes de decidir favoritá-lo.
 3. Ao pesquisar um personagem, gostaria de salvá-lo para que fique listado nos meus favoritos.
@@ -30,14 +30,14 @@ https://rickandmortyfavorites.netlify.app/
 
 # COMO EXECUTAR O PROJETO
 
-# Clone este repositório
+Clone este repositório:  
 $ git clone https://github.com/thaygrance/rickandmortyfavorites.git
 
-# Acesse a pasta do projeto no seu terminal
+Acesse a pasta do projeto no seu terminal:  
 $ cd rickandmortyfavorites
 
-# Instale as dependências
+Instale as dependências:  
 $ yarn install
 
-# Execute a aplicação 
+Execute a aplicação:   
 $ yarn start
