@@ -27,6 +27,8 @@ O mais satisfatório foi colocar em prática conhecimentos mais complexos de Rea
 # Página disponível em:
 https://rickandmortyfavorites.netlify.app/
 
+<img alt="Gif página" align="center" width="500" src="Gravação de tela de 07-12-2021 06_59_59.gif">
+
 
 # COMO EXECUTAR O PROJETO
 
